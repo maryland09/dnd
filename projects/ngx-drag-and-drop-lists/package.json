@@ -1,0 +1,14 @@
+{
+  "name": "dnd-marmylad",
+  "version": "18.0.0",
+  "private": false,
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^18.0.0",
+    "@angular/core": "^18.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.6.2"
+  },
+  "sideEffects": false
+}

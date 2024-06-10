@@ -1,0 +1,63 @@
+{
+  "name": "dnd-marmylad",
+  "version": "2.0.3",
+  "private": false,
+  "description": "angular drag and drop component for lists",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve ngx-drag-and-drop-lists-demo",
+    "build": "ng build ngx-drag-and-drop-lists",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "publish": "npm run build && cd dist/ngx-drag-and-drop-lists && npm publish --access public"
+  },
+  "precommit": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryware/ngx-drag-and-drop-lists.git"
+  },
+  "keywords": [
+    "drag-and-drop",
+    "angular2",
+    "angular4",
+    "angular9",
+    "alignment"
+  ],
+  "author": "Michael Tarnortusky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryware/ngx-drag-and-drop-lists/issues"
+  },
+  "homepage": "https://github.com/ryware/ngx-drag-and-drop-lists#readme",
+  "dependencies": {
+    "@angular/animations": "^18.0.0",
+    "@angular/common": "^18.0.0",
+    "@angular/compiler": "^18.0.0",
+    "@angular/core": "^18.0.0",
+    "@angular/forms": "^18.0.0",
+    "@angular/platform-browser": "^18.0.0",
+    "@angular/platform-browser-dynamic": "^18.0.0",
+    "@angular/router": "^18.0.0",
+    "tslib": "^2.6.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^18.0.0",
+    "@angular/cli": "~18.0.0",
+    "@angular/compiler-cli": "^18.0.0",
+    "@types/jasmine": "~5.1.4",
+    "jasmine-core": "~5.1.2",
+    "karma": "~6.4.3",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.1",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.4.5",
+    "connect": "^3.7.0",
+    "ng-packagr": "^18.0.0",
+    "serve-static": "^1.15.0",
+    "core-js": "^3.37.1",
+    "eslint": "^9.3.0"
+  }
+}
